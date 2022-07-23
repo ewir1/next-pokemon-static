@@ -28,7 +28,7 @@ export const PokemonCard: React.FC<Props> = ({ pokemon: { id, img, name } }) => 
                 isPressable
                 variant="bordered">
                 <Card.Body>
-                    <Card.Image src={img as string} width="100%" height={140} />
+                    <Card.Image src={img as string} width="100%" height={140} alt={name} />
                 </Card.Body>
                 <Card.Footer>
                     <Row justify="space-between">
